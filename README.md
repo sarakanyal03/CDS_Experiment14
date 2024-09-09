@@ -23,7 +23,7 @@ A key concept in object-oriented programming in C++ is inheritance, which enable
 
 3. Types of Inheritance : <br>
 
-  1. Single Inheritance
+  * Single Inheritance
 A derived class inherits from only one base class. <BR>
 ```
 lass Base {
@@ -35,7 +35,7 @@ class Derived : public Base {
 };
 ```
 
-  2.  Multiple Inheritance
+  *  Multiple Inheritance
 A derived class inherits from more than one base class. <BR>
 ```
 class Base1 {
@@ -51,7 +51,7 @@ class Derived : public Base1, public Base2 {
 };
 ```
 
-  3.  Multilevel Inheritance
+  * Multilevel Inheritance
 A class is derived from a class that is also derived from another class, forming a chain. <BR>
 ```
 class Base {
@@ -67,7 +67,7 @@ class Derived : public Intermediate {
 };
 ```
 
-  4.  Hierarchical Inheritance
+  * Hierarchical Inheritance
 Multiple derived classes inherit from a single base class.
 ```
 class Base {
